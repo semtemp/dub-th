@@ -1,9 +1,13 @@
 import React from 'react';
 import './App.css';
+import Todo from './Todo.jsx'
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <div>
+      <h1>To-do List</h1>
+      <Todo />
+    </div>
   );
 }
 
